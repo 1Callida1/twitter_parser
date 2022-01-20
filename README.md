@@ -9,10 +9,10 @@ For the starting work python 3 is required.
 ## PRE-setup
 1. fill in the proxy data in **.env** file
 ```
-    PROXY_IP= "your_proxy_ip"
-    PROXY_PORT= "your_proxy_port"
-    PROXY_LOGIN= "your_proxy_login"
-    PROXY_PASSWORD= "your_proxy_password"
+    PROXY_IP= "Proxy ip"
+    PROXY_PORT= "Proxy port"
+    PROXY_LOGIN= "Proxy login"
+    PROXY_PASSWORD= "Proxy password"
     PROXY_TYPE="http or https"
 ```
 
