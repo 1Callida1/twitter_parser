@@ -1,4 +1,4 @@
-# TWITER PARSER
+# TWITTER PARSER
 ____
 ## This is http parser of twits from Elon Musk twitter
 
