@@ -73,7 +73,8 @@ def main():
 
     time.sleep(0.5)
 
-    twitter_session_headers['authorization'] = 'Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA'
+    twitter_session_headers['authorization'] = 'Bearer'
+    + ' AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA'
     twitter_session_headers['content-type'] = 'application/x-www-form-urlencoded'
 
     response = session.post('https://api.twitter.com/1.1/guest/activate.json', 
